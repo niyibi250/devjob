@@ -14,7 +14,7 @@ export default function Job() {
     const selectedjob=jobdata.find((job)=>job.id == id)
 
     return (
-    <div className=' bg-light-grey flex flex-col justify-center items-center pb-[2%]'>
+    <div className=' bg-light-grey flex flex-col justify-center items-center pb-[2%] dark:bg-midnight'>
         <Jobheader selectedjob={selectedjob} ></Jobheader>
         <Jobdetails selectedjob={selectedjob}></Jobdetails>
         <Jobfooter selectedjob={selectedjob}></Jobfooter>

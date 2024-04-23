@@ -5,7 +5,7 @@ import Button from '../components/button'
 
 export default function Home() {
   return (
-    <div className=' bg-light-grey flex flex-col justify-center items-center pb-[2%]'>
+    <div className=' flex flex-col justify-center items-center pb-[2%]'>
         <Searchbar></Searchbar>
         <Gridcontainer></Gridcontainer>
         <Button></Button>
